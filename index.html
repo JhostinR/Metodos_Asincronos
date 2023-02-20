@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes Picsum</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <span class="encabezado">Imagenes Picsum</span>
+    <div class="opciones" id="opciones">
+    <h3>Escala Grises</h3> 
+    <input id="myCheck" type="checkbox"> 
+    <h3>Blur</h3>
+    <input id="blur" type="number" min="0" max="10">
+    <h3>Pagina</h3> 
+    <input type="number" min="" id="page">
+    <h3>Cantidad</h3>
+    <input type="number" id="limit">
+    <button id="btn_aceptar" type="button" class="btn btn-primary">Aceptar</button>
+    </div>
+    <div id="contenido"></div>
+<br>
+<br>
+<nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <a class="page-link">⯬</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">1</a>
+      </li>
+      <li class="page-item active" aria-current="page">
+        <a class="page-link" href="#">2</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">4</a></li>
+      <li class="page-item">
+      </li>
+      <li class="page-item">
+        <a class="page-link" href="#">5</a></li>
+      <li class="page-item">
+      <li class="page-item">
+        <a class="page-link" href="#">6</a></li>
+      <li class="page-item">
+      <a class="page-link" href="#">⯮</a>
+      </li>
+    </ul>
+  </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="picsumAwait.js"></script>
+</body>
+</html>
